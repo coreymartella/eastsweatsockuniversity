@@ -1,0 +1,85 @@
+h1{
+	display: block;
+	width:200px;
+	height: 200px;
+	margin: 10px auto;
+	text-indent: -9999px;
+	background-image: url(images/logo.gif);
+	background-position: center center;
+}
+/* -------------------------------------------------------------------------- */
+/* -----| GALLERY LIST |----------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#galleryList {
+    margin: 0;
+    padding: 0 4px;
+	max-width:864px;
+	margin: 0 auto;
+}
+
+#galleryList li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+#galleryList li a {
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    display: block;
+    padding: 10px;
+	border-radius:62px;
+	outline: none;
+}
+
+#galleryList li a:hover {
+    border-color: #999;
+}
+
+#galleryList li a img {
+    border: none;
+	border-radius:50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----| GALLERY FOOTER |--------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#galleryFooter {
+	display: none;
+}
+
+
+
+
+
+/* ---------------------------------------- */
+/* ----|  MISCELLANEOUS  |----------------- */
+/* ---------------------------------------- */
+
+/* --- CLEAR FIX --- */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1; /* IE6 */
+}
+
+*:first-child+html .clearfix {
+    zoom: 1; /* IE7 */
+}
+
+/**
+ * UberGallery.css created and implimented by,
+ * Chris Kankiewicz -- http://www.ChrisKankiewicz.com
+ */
